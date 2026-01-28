@@ -1,0 +1,88 @@
+/* ===== 基本整体 ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000;
+  background-color: #ffffff;
+}
+
+/* ===== 页眉 ===== */
+#header {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+}
+
+#header-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#header-content h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+/* ===== 主体布局 ===== */
+#wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* ===== 左侧菜单 ===== */
+#menu {
+  width: 200px;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+#menu ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#menu ul li {
+  margin-bottom: 10px;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: #003366;
+}
+
+#menu ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ===== 右侧内容 ===== */
+#content {
+  flex: 1;
+  padding: 20px;
+}
+
+#content h2 {
+  margin-top: 20px;
+  color: #003366;
+}
+
+#content ul {
+  padding-left: 20px;
+}
+
+#content ul li {
+  margin-bottom: 10px;
+}
+
+/* ===== 页脚 ===== */
+#footer {
+  clear: both;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
