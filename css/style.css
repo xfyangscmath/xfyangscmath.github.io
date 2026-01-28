@@ -1,21 +1,21 @@
 /* ======================================================
-   Xiaofeng Yang – Academic Homepage Style (Classic)
+   Xiaofeng Yang – Classic Academic Homepage (LEFT MENU)
    ====================================================== */
 
-/* ===== 全局 ===== */
-body {
+/* ===== 全站背景 ===== */
+html, body {
   margin: 0;
   padding: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 15px;
   line-height: 1.45;
   color: #2f4f2f;
-  background-color: #2f6b1a;   /* 深绿色整体背景 */
+  background-color: #2f6b1a;   /* 深绿色背景 */
 }
 
 /* ===== 页眉 ===== */
 #header {
-  background-color: #1b4d0f;   /* 深绿横条 */
+  background-color: #1b4d0f;
   border-bottom: 4px solid #6b8e23;
 }
 
@@ -29,23 +29,24 @@ body {
   margin: 0;
   font-size: 34px;
   font-weight: bold;
-  color: #ffffcc;              /* 淡黄色标题 */
+  color: #ffffcc;
 }
 
 /* ===== 主体外框 ===== */
 #wrapper {
-  max-width: 1100px;
+  width: 1100px;
   margin: 28px auto;
-  display: flex;
-  background-color: #ffffcc;   /* 中间淡黄色内容区 */
+  background-color: #ffffcc;
   border: 2px solid #3d7a1f;
+  overflow: hidden;   /* 关键：包住 float */
 }
 
-/* ===== 左侧菜单 ===== */
+/* ===== 左侧菜单（关键部分） ===== */
 #menu {
+  float: left;
   width: 200px;
   padding: 20px 15px;
-  background-color: #ffffcc;   /* 与内容区一致 */
+  background-color: #ffffcc;
   border-right: 1px solid #3d7a1f;
 }
 
@@ -69,9 +70,9 @@ body {
   text-decoration: underline;
 }
 
-/* ===== 右侧内容区 ===== */
+/* ===== 右侧内容 ===== */
 #content {
-  flex: 1;
+  margin-left: 220px;   /* 给左侧菜单留位置 */
   padding: 22px 32px;
   background-color: #ffffcc;
 }
@@ -79,7 +80,7 @@ body {
 #content h2 {
   margin-top: 22px;
   margin-bottom: 8px;
-  color: #7a1f1f;              /* 酒红色标题 */
+  color: #7a1f1f;
   font-size: 20px;
 }
 
@@ -98,15 +99,16 @@ a {
 }
 
 a:hover {
-  color: #003366;
   text-decoration: underline;
 }
 
 /* ===== 页脚 ===== */
 #footer {
+  clear: both;
   text-align: center;
   padding: 12px;
   font-size: 13px;
   color: #2f4f2f;
   background-color: #e6f2c2;
 }
+
