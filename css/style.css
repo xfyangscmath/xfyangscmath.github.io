@@ -1,94 +1,112 @@
+/* ======================================================
+   Xiaofeng Yang – Academic Homepage Style (Classic)
+   ====================================================== */
+
 /* ===== 全局 ===== */
 body {
   margin: 0;
   padding: 0;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 15px;
+  line-height: 1.45;
   color: #2f4f2f;
-  background-color: #2f6b1a; /* 深绿色背景 */
+  background-color: #2f6b1a;   /* 深绿色整体背景 */
 }
 
 /* ===== 页眉 ===== */
 #header {
-  background-color: #1f4f12;
-  border-bottom: 4px solid #6aa84f;
+  background-color: #1b4d0f;   /* 深绿横条 */
+  border-bottom: 4px solid #6b8e23;
 }
 
 #header-content {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 18px 20px;
 }
 
 #header-content h1 {
   margin: 0;
-  font-size: 36px;
+  font-size: 34px;
   font-weight: bold;
-  color: #f5f5b5; /* 浅黄色标题 */
+  color: #ffffcc;              /* 淡黄色标题 */
 }
 
-/* ===== 主体布局 ===== */
+/* ===== 主体外框 ===== */
 #wrapper {
   max-width: 1100px;
-  margin: 30px auto;
+  margin: 28px auto;
   display: flex;
-  background-color: #ffffcc; /* 中间淡黄色区域 */
+  background-color: #ffffcc;   /* 中间淡黄色内容区 */
   border: 2px solid #3d7a1f;
 }
 
 /* ===== 左侧菜单 ===== */
 #menu {
-  width: 220px;
-  padding: 20px;
-  background-color: #e6f2c2;
-  border-right: 2px solid #3d7a1f;
+  width: 200px;
+  padding: 20px 15px;
+  background-color: #ffffcc;   /* 与内容区一致 */
+  border-right: 1px solid #3d7a1f;
 }
 
 #menu ul {
   list-style-type: none;
   padding-left: 0;
+  margin: 0;
 }
 
 #menu ul li {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 #menu ul li a {
   text-decoration: none;
-  font-weight: bold;
   color: #1f4f12;
+  font-weight: normal;
 }
 
 #menu ul li a:hover {
   text-decoration: underline;
 }
 
-/* ===== 右侧内容 ===== */
+/* ===== 右侧内容区 ===== */
 #content {
   flex: 1;
-  padding: 25px 35px;
+  padding: 22px 32px;
   background-color: #ffffcc;
 }
 
 #content h2 {
-  margin-top: 25px;
-  color: #7a1f1f; /* 酒红色标题，接近原图 */
+  margin-top: 22px;
+  margin-bottom: 8px;
+  color: #7a1f1f;              /* 酒红色标题 */
+  font-size: 20px;
 }
 
 #content ul {
   padding-left: 20px;
+  margin-top: 6px;
 }
 
 #content ul li {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
+}
+
+/* ===== 链接 ===== */
+a {
+  color: #003366;
+}
+
+a:hover {
+  color: #003366;
+  text-decoration: underline;
 }
 
 /* ===== 页脚 ===== */
 #footer {
   text-align: center;
-  padding: 15px;
-  font-size: 14px;
+  padding: 12px;
+  font-size: 13px;
   color: #2f4f2f;
   background-color: #e6f2c2;
 }
