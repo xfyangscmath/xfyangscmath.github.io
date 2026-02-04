@@ -1,0 +1,201 @@
+body{
+	margin:0;
+	background:#006600;
+}
+html {
+	background:#006600;
+	width:800px;
+	margin:0 auto;
+}
+#header{
+	width:799px;
+	margin:0 auto;
+}
+#header-content{
+	background:#023802 url('images/grass.png') no-repeat bottom left;
+	border-left:1px solid #ffffcc;
+	border-right:1px solid #ffffcc;
+}
+h1{
+	margin:0 auto;
+	padding:10px 0 0 40px;
+	width:750px;
+	color:#FFFF99;
+	height:1.275em;
+}
+#info {
+        position:relative;
+	text-align:left;
+	overflow:visiable;
+	margin-top:-35px;
+	font:12px sans-serif;
+	float:left;
+	padding-left:20px;
+}
+#info a {
+	color:#023802;
+	font-weight:300;
+}
+#info input{
+	margin:1px;
+}
+#main-menu {
+	margin:0 auto;
+	width:802px;
+	height:35px;
+	margin-bottom:20px;
+}
+#main-menu ul {
+	margin:0 auto;
+	padding-left:1px;
+	overflow:hidden;
+}
+* html #main-menu ul  {
+	padding-left:4px;
+}
+#main-menu li {
+	list-style-type:none;
+	float:left;
+	width:134px;
+	margin-left:-1px;
+	position:relative;
+	text-align:center;
+
+}
+#main-menu a{
+	height:27px;
+	padding-top:4px;
+	background:url('images/tab.png') no-repeat bottom center;
+	display:block;
+	color:#ffffff;
+}
+#main-menu a:hover{
+	padding-top:4px;
+	height:29px;
+	background:url('images/tab-hover.png') no-repeat bottom center;
+}
+#wrapper {
+	width:794px;
+	margin:0 auto;
+	border:1px solid #023802;
+	background:#FFFFCC;
+        position:relative;
+}
+#content {
+	width:564px;
+	padding-right:10px;
+	padding-left:10px;
+	float:right;
+	color:#111;
+}
+#footer {
+	display:block;
+	width:796px;
+	clear:both;
+	font:0.75em sans-serif;
+	padding:1em 0 2em 0;
+	text-align:center;
+	background:url('') no-repeat bottom left;
+}
+#footer li {
+	display:inline;
+	padding:0 5px;
+}
+#footer ul {
+	padding:0;
+	margin:0;
+}
+#footer p {
+	margin:0;	
+}
+#content p {
+	font:0.9em sans-serif;
+	text-indent:1em;
+	padding-right:10px;
+}
+#menu {
+	position:absolute;
+	height:100%;
+	width:200px;
+	float:left;
+}
+#menu ul {
+	padding:0px;
+	margin:0px;
+}
+#menu li {
+	list-style-type:none;
+	margin:6px 16px;
+}
+h2{
+	color:#660000;
+	margin:0.83em 0;
+	padding-left:30px;
+	background:url('images/leaf.png') no-repeat center left;
+}
+h3 {
+	color:#660000;
+	font-size:1.2em;
+}
+h4{
+	font-size:1em
+}
+form {
+	padding:2px 0;
+	margin:0;
+}
+.left {
+	float:left
+}
+.right {
+	float:right;
+}
+.center{
+	text-align:center;
+	margin:0 auto;
+}
+code {
+	border:1px solid #414711;
+	background: #f1f3e6;
+	color:#414711;
+	white-space:nowrap;
+}
+dt {
+	list-style-type:square;
+}
+#ads {
+	text-align:right;
+	padding-right:60px;
+	clear:both;
+}
+a {
+	text-decoration:none;
+	font-weight:900;
+	color:#006600;
+}
+img {
+	border:0;
+	padding:10px;
+}
+a:hover {
+	color:#219d21;
+}
+a:hover:visited {
+	color:#219d21;
+}
+a:active {
+	color:#0099CC;
+}
+a:visited {
+	color:#023802;
+}
+table {
+	width:100%;
+	border-collapse:collapse
+}
+input,
+textarea {
+	border:1px solid #023802;
+	background:#ffffdd;
+	color:#023802;
+}
